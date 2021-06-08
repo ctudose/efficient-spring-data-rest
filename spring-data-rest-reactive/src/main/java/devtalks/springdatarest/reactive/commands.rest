@@ -1,0 +1,16 @@
+GET http://localhost:8081/persons
+
+###
+
+GET http://localhost:8081/persons?start=1
+
+###
+
+GET http://localhost:8081/persons/names
+
+###
+
+GET http://localhost:8081/persons/stream
+
+###
+GET http://localhost:8081/persons/all

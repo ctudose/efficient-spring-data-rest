@@ -1,0 +1,10 @@
+###
+POST http://localhost:8081/persons
+Content-Type: application/json
+
+{
+  "name": "John Jones"
+}
+
+###
+DELETE http://localhost:8081/persons/4

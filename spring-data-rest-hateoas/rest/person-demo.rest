@@ -1,0 +1,76 @@
+###
+GET http://localhost:8081/persons
+Accept: application/json
+
+###
+GET http://localhost:8081/persons/7
+
+###
+GET http://localhost:8081/persons/99
+
+###
+GET http://localhost:8081/persons/abcd
+
+###
+GET http://localhost:8081/persons/find?name=I
+
+###
+GET http://localhost:8081/persons/find?name=
+
+###
+POST http://localhost:8081/persons
+Content-Type: application/json
+
+{
+  "name": "Vladimir",
+  "age": 90,
+  "address": {
+    "street": "Stone Street",
+    "city": "London"
+  }
+}
+
+###
+PUT http://localhost:8081/persons/17
+Content-Type: application/json
+
+{
+  "name": "Vladimir",
+  "age": 94
+}
+
+###
+PUT http://localhost:8081/persons/-9
+Content-Type: application/json
+
+{
+  "name": "Vladimir",
+  "age": 16
+}
+
+###
+DELETE http://localhost:8081/persons/17
+
+###
+POST http://localhost:8081/persons
+Content-Type: application/json
+
+{
+  "name": "Ivan",
+  "age": 13,
+  "address": {
+    "street": "Rock Street",
+    "city": "London"
+  }
+}
+
+###
+PATCH http://localhost:8081/persons/21
+Content-Type: application/json
+
+{
+  "name": "Ivan Ivanovich",
+  "age": 33
+}
+
+

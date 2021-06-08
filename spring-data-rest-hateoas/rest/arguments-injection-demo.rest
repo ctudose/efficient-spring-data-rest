@@ -1,0 +1,15 @@
+###
+GET http://localhost:8081/admin/headers
+
+###
+GET http://localhost:8081/admin/headers/ct
+Content-Type: text/plain
+
+###
+GET http://localhost:8081/admin/cookies
+
+###
+GET http://localhost:8081/admin/locale
+
+###
+GET http://localhost:8081/admin/timezone

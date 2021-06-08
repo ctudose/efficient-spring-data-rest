@@ -1,0 +1,9 @@
+###
+GET http://localhost:8081/models/42
+
+###
+GET http://localhost:8081/api/persons
+
+###
+GET http://localhost:8081/api/persons/7
+

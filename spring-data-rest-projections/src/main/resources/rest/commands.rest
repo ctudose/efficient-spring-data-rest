@@ -1,0 +1,8 @@
+###
+GET http://localhost:8081/persons/1
+
+###
+GET http://localhost:8081/persons/1?projection=summary
+
+###
+GET http://localhost:8081/persons
