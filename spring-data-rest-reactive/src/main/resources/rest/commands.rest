@@ -1,0 +1,16 @@
+GET http://localhost:8081/users
+
+###
+
+GET http://localhost:8081/users?start=1
+
+###
+
+GET http://localhost:8081/users/names
+
+###
+
+GET http://localhost:8081/users/stream
+
+###
+GET http://localhost:8081/users/all
